@@ -3,9 +3,8 @@ local theme = require("kanagawa.colors").setup().theme
 local kanagawa = {}
 
 kanagawa.terminal = {
-	a = { bg = theme.syn.fun, fg = theme.ui.bg_m3 },
-	b = { bg = theme.diff.change, fg = theme.syn.fun },
-	c = { bg = theme.ui.bg_p1, fg = theme.ui.fg },
+	a = { bg = theme.diag.ok, fg = theme.ui.bg },
+	b = { bg = theme.ui.bg, fg = theme.diag.ok },
 }
 
 kanagawa.normal = {
